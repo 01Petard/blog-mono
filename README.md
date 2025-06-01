@@ -22,7 +22,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/blog?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
     username: root
-    password: yourpassword
+    password: app_password
 ```
 
 ## 4️⃣ 初始化数据库
@@ -36,7 +36,7 @@ values ('1', 'admin', '管理员', '96e79218965eb72c92a549dd5a330112', 'https://
 
 ## 5️⃣ 启动项目
 
-- 直接运行主类：`com.lrm.BlogApplication.java`
+- 直接运行主类：`com.hzx.BlogApplication.java`
 - 或使用 Maven 命令：
 
 ```bash
